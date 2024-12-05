@@ -1,0 +1,11 @@
+# Ignore source directory
+src/
+
+# Ignore test directory
+test/
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env

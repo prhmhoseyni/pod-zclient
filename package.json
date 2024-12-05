@@ -1,0 +1,34 @@
+{
+  "name": "pod-zclient",
+  "description": "pod zookeeper client package",
+  "version": "0.0.1",
+  "author": "Parham Hoseyni",
+  "license": "ISC",
+  "main": "dist/pod-zclient.cjs.js",
+  "module": "dist/pod-zclient.es.js",
+  "types": "dist/pod-zclient.d.ts",
+  "scripts": {
+    "build": "vite build && tsup src --dts --out-dir dist/types",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prhmhoseyni/pod-zclient.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prhmhoseyni/pod-zclient/issues"
+  },
+  "homepage": "https://github.com/prhmhoseyni/pod-zclient/readme",
+  "keywords": [],
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "@types/node": "^22.10.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.2"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ]
+}

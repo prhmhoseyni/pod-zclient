@@ -1,0 +1,14 @@
+{
+    "extends": "@tsconfig/node18/tsconfig.json",
+    "compilerOptions": {
+        "module": "Node16",
+        "declaration": true,
+        "declarationDir": "dist/types",
+        "outDir": "dist",
+        "target": "ESNext",
+        "strict": true
+    },
+    "include": [
+        "src"
+    ]
+}
